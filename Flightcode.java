@@ -1,12 +1,15 @@
 import java.util.ArrayList;
 class Flight {
-    int id; String from, to, date; int cap;
+    int id;
+    String from,to, date; 
+    int cap;
     Flight(int id, String from, String to, String date, int cap) {
         this.id=id; this.from=from; this.to=to; this.date=date; this.cap=cap;
     }
 }
 class Passenger {
-    int id; String name;
+    int id;
+    String name;
     Passenger(int id, String name){this.id=id; this.name=name;}
 }
 class Booking {
